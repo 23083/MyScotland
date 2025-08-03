@@ -4,9 +4,10 @@
 
 img{
     width: 100%;
+    border-radius: 5px;
 }
 
-.hero{ 
+.hero-image{ 
     background-image:url(./images/scotland-1987599_1280.jpg);
     height: 352px;
     background-position: center;
@@ -17,19 +18,38 @@ img{
     color: whitesmoke;
     position: absolute;
     text-align: center;
-    top: 280px;
+    top: 180px;
     width: 100%;
     font-size: 4rem;
 }
-    .two-column{
-        display: grid;
-        grid-template-columns: 1fr 3fr;
-        gap: 50px;
-        width: 80%;
-        margin: auto;
-        margin-top: 40px;
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .info{
     font-size: 1.25em;
+}
+
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.card{
+    background-color: rbg(0, 0, 140);
+}
+
+.card-text{
+    text-align: center;
+    color: whitesmoke;
 }
