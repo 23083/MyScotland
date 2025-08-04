@@ -4,11 +4,11 @@
 
 img{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .hero-image{ 
-    background-image:url(./images/scotland-1987599_1280.jpg);
+    background-image: url(./images/scotland-1987599_1280.jpg);
     height: 352px;
     background-position: center;
      background-repeat: no-repeat;
@@ -43,10 +43,11 @@ img{
     width: 80%;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .card{
-    background-color: rbg(0, 0, 140);
+    background-color: skyblue;
 }
 
 .card-text{
